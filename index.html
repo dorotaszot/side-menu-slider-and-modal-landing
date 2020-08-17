@@ -33,7 +33,8 @@
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, asperiores.</p>
 
     <button class="cta-btn" id="open">Sign Up</button>
-
+  </header>
+  <div class="container">
     <h2>What's this page about?</h2>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus quisquam, optio doloribus suscipit ea
       obcaecati! Labore illum veritatis facilis incidunt?</p>
@@ -60,39 +61,40 @@
       libero ullam rem nam! Quibusdam laboriosam alias saepe deleniti quisquam. Mollitia tenetur magnam modi, eos illum
       ad odio nam iure dicta quidem nostrum aut! Repellat, temporibus! Necessitatibus nam praesentium ut aliquid,
       molestiae ea sed dolorem in numquam quas eos nostrum?</p>
-  </header>
+  </div>
 
   <div class="modal-container" id="modal">
     <div class="modal">
       <button class="close-btn" id="close">
         <i class="fas fa-times"></i>
       </button>
+
+      <div class="modal-header">
+        <h3>Sign Up</h3>
+      </div>
+      <div class="modal-content">
+        <p>Sign up with us to get offers, support and more</p>
+      </div>
+      <form class="modal-form">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Enter Name" class="form-input">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter Email" class="form-input">
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter Password" class="form-input">
+        </div>
+        <div>
+          <label for="password2">Password</label>
+          <input type="password" id="password2" placeholder="Confirm password" class="form-input">
+        </div>
+        <input type="submit" value="Submit" class="submit-btn">
+      </form>
     </div>
-    <div class="modal-header">
-      <h1>Sign Up</h1>
-    </div>
-    <div class="modal-content">
-      <p>Sign up with to get offers, support and more</p>
-    </div>
-    <form class="modal-form">
-      <div>
-        <label for="name">Name</label>
-        <input type="text" id="name" placeholder="Enter Name">
-      </div>
-      <div>
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="Enter Email">
-      </div>
-      <div>
-        <label for="password">Password</label>
-        <input type="password" id="password" placeholder="Enter Password">
-      </div>
-      <div>
-        <label for="password2">Password</label>
-        <input type="password" id="password2" placeholder="Confirm password">
-      </div>
-      <input type="submit" value="Submit" class="submit-btn">
-    </form>
   </div>
 
   <script src="main.js"></script>

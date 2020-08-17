@@ -23,7 +23,7 @@ nav {
   background-color: var(--primary-color);
   width: 200px;
   height: 100vh;
-  /* transform: translateX(-100%); */
+  transform: translateX(-100%);
   z-index: 100;
   border-right: 2px solid rgba(200, 200, 200, 0.1);
 }
@@ -62,3 +62,117 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
+
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 130%;
+  padding: 40px 15px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  padding: 30px 0;
+}
+
+button, input[type='submit'] {
+  background-color: var(--secondary-color);
+  cursor: pointer;
+  padding: 8px 12px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.toggler {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cta-btn {
+  padding:  8px 20px;
+  font-size: 20px;
+}
+
+.container {
+  padding: 15px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 800px;
+}
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+  overflow: hidden;
+  display: none;
+}
+
+.modal {
+  background-color: #fff;
+  width: 400px;
+  max-width: 100%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.modal-header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 5px 20px;
+}
+
+.modal-content {
+  padding: 0 20px;
+  width: 100%;
+}
+
+.modal-content p {
+  margin-bottom: 0;
+}
+
+.modal-form {
+  padding: 20px 20px;
+}
+
+.modal-form div {
+  margin: 15px 0;
+}
+
+.modal-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.modal-form input {
+  padding: 10px;
+ width: 100%;
+}
+
+.modal-container .close-btn {
+  position: absolute;
+  background: transparent;
+  right: 0;
+  top: 0;
+  font-size: 20px;
+  margin: 15px;
+}
+
+
+
